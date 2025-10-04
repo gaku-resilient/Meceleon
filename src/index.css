@@ -1,0 +1,21 @@
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Add this CSS to hide the default cursor */
+* {
+  /* cursor: none !important; */
+}
+
+
+
+
+.ql-container {
+  min-height: 200px;
+  border-radius: 0.75rem;
+}
+.ql-toolbar {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
