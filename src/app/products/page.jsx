@@ -1344,7 +1344,7 @@ const FullPdfViewer = ({ product, onBack }) => {
 };
 
 // Product Category Card (unchanged)
-const ProductCategoryCard = ({ imgSrc, title, category, description, keyFeatures, pdf, onClick }) => (
+const ProductCategoryCard = ({ imgSrc, title, category, description, keyFeatures, onClick }) => (
   <div 
     className="border border-gray-300 rounded-lg overflow-hidden cursor-pointer hover:border-red-600 hover:shadow-lg transition-all duration-300 transform hover:scale-105 bg-white"
     onClick={onClick}
