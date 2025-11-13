@@ -3,7 +3,7 @@ export const products = [
     id: 'c-frame-h-frame-mobile-floor-cranes',
     title: 'C FRAME, H FRAME & MOBILE FLOOR CRANES',
     category: 'Frame',
-    imgSrc: '/images/img1.jpeg', // Ensure this image is in /public/images/
+    imgSrc: '/images/img2.webp', // Ensure this image is in /public/images/
     description: 'Robust and reliable, ideal for a wide range of fluid transfer applications in industrial and mobile settings.',
     keyFeatures: ['High Efficiency', 'Durable Cast Iron Body', 'Compact Design'],
     details: 'Our gear pumps are engineered for high performance and long service life. They operate efficiently under various pressures and are suitable for handling oils, fuels, and other hydraulic fluids. The simple construction with few moving parts ensures minimal maintenance and maximum uptime.',

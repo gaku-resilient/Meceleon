@@ -206,14 +206,14 @@ export default function HydraulicLanding() {
           </div>
 
           {viewMode === 'slider' ? (
-            <div className="relative">
-              <div className="overflow-hidden rounded-2xl">
+            <div className="relative p-2">
+              <div className="overflow-hidden rounded-2xl mb-2">
                 <div 
                   className="flex transition-transform duration-500 ease-in-out"
                   style={{ transform: `translateX(-${productIndex * 100}%)` }}
                 >
                   {homeProducts.map((product, i) => (
-                    <div key={i} className="w-full flex-shrink-0 px-2">
+                <div key={i} className="w-1/4 flex-shrink-0 px-2"> 
                       <div className="bg-white rounded-xl shadow-lg overflow-hidden">
                         <div className="relative w-full h-96">
                           <Image 
@@ -224,8 +224,8 @@ export default function HydraulicLanding() {
                           />
                         </div>
                         <div className="p-8">
-                          <h3 className="text-3xl font-bold mb-3 text-gray-900">{product.name}</h3>
-                          <p className="text-gray-600 text-lg mb-6">{product.desc}</p>
+                          <h3 className="text-xl font-bold mb-3 text-gray-900">{product.name}</h3>
+                          <p className="text-gray-600 text-l mb-6">{product.desc}</p>
                           <button className="text-red-600 font-semibold flex items-center gap-2 hover:gap-4 transition-all text-lg">
                             View Details <ArrowRight size={18} />
                           </button>
