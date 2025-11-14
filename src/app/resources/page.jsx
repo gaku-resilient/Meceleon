@@ -120,12 +120,18 @@ export default function ResourcesPage() {
       {/* Header */}
      
       {/* Page Title Section */}
-      <section className="bg-gradient-to-r from-red-600 to-red-700 py-16">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-white mb-4">Resources & Brochures</h2>
-          <p className="text-red-100 text-lg">Download product catalogs, technical guides, and documentation</p>
-        </div>
-      </section>
+        <section className="relative bg-red-800 text-white py-20 md:py-32">
+                <div 
+                    className="absolute inset-0 bg-cover bg-center opacity-30" 
+                    style={{ backgroundImage: "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1920&auto=format&fit=crop')" }}
+                ></div>
+                <div className="container mx-auto px-4 text-center relative z-10">
+                    <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Resources & Brochures</h1>
+                    <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-gray-300">
+                       Download product catalogs, technical guides, and documentation
+                    </p>
+                </div>
+            </section>
 
       {/* Search and Filter Section */}
       <section className="bg-white border-b border-gray-200 py-6">
