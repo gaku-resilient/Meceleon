@@ -1677,41 +1677,43 @@ export default function HydraulicLanding() {
       </Head>
       <div className="font-sans bg-gray-50 text-gray-900">
         {/* Hero Section */}
-        <section className="relative h-screen flex items-center justify-center overflow-hidden">
-          <div className="absolute inset-0">
-            <Image
-              src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1920&h=1080&fit=crop"
-              alt="Industrial hydraulic pump machinery in action"
-              fill
-              className="object-cover"
-              priority
-              style={{ transform: `translateY(${scrollY * 0.5}px)` }}
-              sizes="100vw"
-            />
-            <div className="absolute inset-0 bg-gradient-to-b from-gray-600/70 to-red-900/80"></div>
-          </div>
-          
-          <div className="relative z-10 text-center px-4 max-w-5xl mx-auto animate-fade-in text-white">
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Powering Industries with <span className="text-red-600">Precision</span> Hydraulic Solutions
-            </h1>
-            <p className="text-lg sm:text-xl md:text-2xl mb-8 text-gray-100">
-              Reliable, efficient, and engineered for the most demanding applications.
-            </p>
-            <Link 
-              href="/products"
-              className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl inline-flex items-center gap-2"
-            >
-              Explore Our Products <ArrowRight size={20} />
-            </Link>
-          </div>
+     <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-8 sm:py-12 md:py-16">
+  <div className="absolute inset-0">
+    <Image
+      src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1920&h=1080&fit=crop"
+      alt="Industrial hydraulic pump machinery in action"
+      fill
+      className="object-cover"
+      priority
+      style={{ transform: `translateY(${scrollY * 0.3}px)` }} // Reduced parallax speed for mobile performance
+      sizes="100vw"
+    />
+    <div className="absolute inset-0 bg-gradient-to-b from-gray-600/80 to-red-900/90 sm:from-gray-600/70 sm:to-red-900/80"></div> {/* Stronger overlay on mobile */}
+  </div>
+  
+  <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl sm:max-w-5xl mx-auto animate-fade-in text-white w-full">
+    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight sm:leading-snug">
+      Powering Industries with <span className="text-red-600">Precision</span> Hydraulic Solutions
+    </h1>
+    <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-gray-100 max-w-lg mx-auto">
+      Reliable, efficient, and engineered for the most demanding applications.
+    </p>
+    <Link 
+      href="/products"
+      className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-300 transform hover:scale-105 active:scale-95 hover:shadow-xl sm:hover:shadow-2xl inline-flex items-center justify-center gap-2 min-h-[44px] touch-manipulation mx-auto"
+      aria-label="Explore our products"
+    >
+      Explore Our Products <ArrowRight size={18} className="sm:size-20" />
+    </Link>
+  </div>
 
-          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-              <div className="w-1/2 h-3 bg-white rounded-full mt-2"></div>
-            </div>
-          </div>
-        </section>
+  {/* Scroll indicator - smaller and higher on mobile to avoid overlap */}
+  <div className="absolute bottom-4 sm:bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce hidden sm:flex">
+    <div className="w-5 h-8 sm:w-6 sm:h-10 border-2 border-white rounded-full flex justify-center">
+      <div className="w-1/2 h-2 sm:h-3 bg-white rounded-full mt-1 sm:mt-2"></div>
+    </div>
+  </div>
+</section>
 
         {/* Value Propositions */}
         <section className="py-16 sm:py-20 px-4 bg-white">
