@@ -257,7 +257,7 @@ export const products = [
   title: 'HAND TOOLS',
   category: 'Hand Tools',
   company: 'Groz – Industrial & Workshop Tools Product Range',
-  imgSrc: '/images/handtools.jpg',
+  imgSrc: '/images/Handtools.jpg',
   description: 'A comprehensive range of professional hand tools — spanners, socket sets, pliers, cutters, insulated tools — designed for durability and ergonomic comfort under demanding industrial conditions.',
   keyFeatures: ['Spanners & Wrenches: 4 mm to 85 mm (A/F)', 'Screwdrivers: lengths from ~75 mm to ~300 mm', 'Hammers: weight range ~100 g to ~5 kg'],
   pdf: '/pdfs/hand-tools.pdf'
