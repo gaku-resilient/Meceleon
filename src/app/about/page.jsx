@@ -628,10 +628,10 @@ export default function AboutPage() {
     return (
         <div className="bg-gray-50">
             {/* Hero Section */}
-            <section className="relative bg-gray-800 text-white py-20 md:py-32">
+            <section className="relative bg-red-800 text-white py-20 md:py-32">
                 <div className="absolute inset-0 opacity-30">
                     <Image 
-                        src="https://images.unsplash.com/photo-1555526242-a3a8a05f314c?q=80&w=1920&auto=format&fit=crop"
+                        src="https://images.unsplash.com/photo-1647427060118-4911c9821b82?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Abstract background image of factory floor"
                         layout="fill"
                         objectFit="cover"
@@ -719,7 +719,7 @@ export default function AboutPage() {
             </section>
 
             {/* Team Section */}
-            <section className="bg-white py-16 md:py-24">
+            {/* <section className="bg-white py-16 md:py-24">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold text-gray-800">Our Team: Together Everyone Achieves More</h2>
@@ -763,7 +763,7 @@ export default function AboutPage() {
                         />
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     );
 }

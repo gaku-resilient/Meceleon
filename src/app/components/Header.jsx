@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState } from 'react';
@@ -17,13 +16,6 @@ const Logo = () => (
     </Link>
 );
 
-
-<Link href="/" className="text-2xl font-bold text-gray-900 flex items-center">
-    
-        Meceleon
-    </Link>
-
-
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -33,6 +25,8 @@ export default function Header() {
         { name: 'Products', href: '/products' },
         { name: 'Partners', href: '/partners' },
         { name: 'Contact', href: '/contact' },
+        { name: 'Resources', href: '/resources' },
+    
     ];
 
     const openModal = () => setIsModalOpen(true);
@@ -40,29 +34,6 @@ export default function Header() {
 
     return (
         <header className="bg-white shadow-md sticky top-0 z-50 border-b border-gray-200">
-            {/* Top Announcement Bar */}
-            <div className="bg-gray-900 text-white text-sm">
-                <div className="container mx-auto px-4 py-2 flex justify-between items-center">
-                    <div className="flex items-center">
-                        <Phone size={14} className="mr-2 text-gray-300" />
-                        <a href="tel:+918882008583" className="hover:text-red-600 transition-colors">
-                            +91 88820 08583
-                        </a>
-                    </div>
-                    <div className="hidden md:block text-center text-gray-300">
-                        Welcome to Meceleon — preview our latest brochure below.
-                    </div>
-                    {/* Brochure preview trigger */}
-                    <button 
-                        onClick={openModal}
-                        className="flex items-center hover:text-red-600 transition-colors"
-                    >
-                        <span className="hidden sm:inline">Latest Brochure</span>
-                        <Download size={14} className="ml-2 text-gray-300" />
-                    </button>
-                </div>
-            </div>
-
             {/* Main Navigation Bar */}
             <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
                 <div className="flex-shrink-0">
@@ -176,6 +147,3 @@ export default function Header() {
         </header>
     );
 }
-
-
-

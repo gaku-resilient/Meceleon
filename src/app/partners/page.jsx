@@ -55,7 +55,7 @@ export default function PartnersPage() {
     return (
         <div className="bg-gray-50">
             {/* Hero Section */}
-            <section className="relative bg-gray-800 text-white py-20 md:py-32">
+            <section className="relative bg-red-800 text-white py-20 md:py-32">
                 <div 
                     className="absolute inset-0 bg-cover bg-center opacity-30" 
                     style={{ backgroundImage: "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1920&auto=format&fit=crop')" }}
