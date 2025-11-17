@@ -1677,7 +1677,7 @@ export default function HydraulicLanding() {
       </Head>
       <div className="font-sans bg-gray-50 text-gray-900">
         {/* Hero Section */}
-     <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-8 sm:py-12 md:py-16">
+     <section className="relative min-h-auto flex items-center justify-center overflow-hidden py-8 sm:py-12 md:py-16">
   <div className="absolute inset-0">
     <Image
       src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1920&h=1080&fit=crop"
@@ -1700,18 +1700,11 @@ export default function HydraulicLanding() {
     </p>
     <Link 
       href="/products"
-      className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-300 transform hover:scale-105 active:scale-95 hover:shadow-xl sm:hover:shadow-2xl inline-flex items-center justify-center gap-2 min-h-[44px] touch-manipulation mx-auto"
+      className="bg-red-600 hover:bg-red-700 text-white px-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-300 transform hover:scale-105 active:scale-95 hover:shadow-xl sm:hover:shadow-2xl inline-flex items-center justify-center gap-2 min-h-[44px] touch-manipulation mx-auto"
       aria-label="Explore our products"
     >
       Explore Our Products <ArrowRight size={18} className="sm:size-20" />
     </Link>
-  </div>
-
-  {/* Scroll indicator - smaller and higher on mobile to avoid overlap */}
-  <div className="absolute bottom-4 sm:bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce hidden sm:flex">
-    <div className="w-5 h-8 sm:w-6 sm:h-10 border-2 border-white rounded-full flex justify-center">
-      <div className="w-1/2 h-2 sm:h-3 bg-white rounded-full mt-1 sm:mt-2"></div>
-    </div>
   </div>
 </section>
 
