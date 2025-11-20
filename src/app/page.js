@@ -1562,9 +1562,15 @@ export default function HydraulicLanding() {
   }, [maxProductIndex, itemsPerView, homeProducts.length]);
 
   const testimonials = [
-    { quote: "These hydraulic systems have transformed our manufacturing efficiency, handling high pressures with ease and minimal maintenance.", author: "Rajesh Kumar", company: "Bharat Heavy Industries Ltd." },
-    { quote: "The precision and durability of your pumps have been a game-changer for our construction projects across India.", author: "Priya Sharma", company: "Delhi Infrastructure Developers" },
-    { quote: "Outstanding customer service and reliable performance – highly recommended for industrial applications.", author: "Amit Patel", company: "Gujarat Engineering Works" }
+    { quote: "These hydraulic systems have transformed our manufacturing efficiency, handling high pressures with ease and minimal maintenance.", author: "Rahul Verma", company: "Bharat Heavy Industries Ltd." },
+    { quote: "The precision and durability of your pumps have been a game-changer for our construction projects across India.", author: "Neha Singh", company: "Delhi Infrastructure Developers" },
+    { quote: "Outstanding customer service and reliable performance – highly recommended for industrial applications.", author: "Amit Patel", company: "Gujarat Engineering Works" },
+    { 
+ quote: "We rely heavily on efficient supply chains, and your company has proven to be a vital partner. The responsiveness of your support team, combined with the reliability of your equipment, makes you our top choice.", author: "Vikram Reddy", company: "Global Manufacturing Hub"
+  },
+  { 
+quote: "Our projects demand precision and speed, and your team consistently delivers on both fronts. The prompt delivery and knowledgeable support are invaluable, and your tools are simply built to last.", author: "Sanjay Gupta", company: "Industrial Tech Solutions"
+  }
   ];
 
   const industries = [
@@ -1925,8 +1931,11 @@ export default function HydraulicLanding() {
                     className="w-full bg-white border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-red-600 focus:ring-2 focus:ring-red-200 transition"
                   />
                   <input 
-                    type="tel"
-                    name="phone"
+                   type="tel" 
+                   name="mobile" 
+                   required 
+                   pattern="[1-9][0-9]{9}"
+                   title="Please enter a valid 10-digit mobile number starting with 1-9 (e.g., 8882008583)"        
                     placeholder="Phone Number"
                     value={formData.phone}
                     onChange={(e) => setFormData({...formData, phone: e.target.value})}

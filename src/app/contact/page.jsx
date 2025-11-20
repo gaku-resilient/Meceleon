@@ -252,7 +252,16 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <label htmlFor="mobile" className="block text-sm font-medium text-gray-700 mb-1">Mobile Number</label>
-                                <input type="tel" id="mobile" name="mobile" required className="block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500" />
+                                {/* <input type="tel" id="mobile" name="mobile" required className="block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500" /> */}
+                                <input 
+                                    type="tel" 
+                                    id="mobile" 
+                                    name="mobile" 
+                                    required 
+                                    pattern="[1-9][0-9]{9}"
+                                    title="Please enter a valid 10-digit mobile number starting with 1-9 (e.g., 8882008583)"
+                                    className="block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500" 
+                                />
                                 <ValidationError prefix="Mobile" field="mobile" errors={state.errors} className="text-red-600 text-sm mt-1" />
                             </div>
                             <div>
