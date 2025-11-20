@@ -778,7 +778,7 @@ export default function PartnersPage() {
                     style={{ backgroundImage: "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1920&auto=format&fit=crop')" }}
                 ></div>
                 <div className="container mx-auto px-4 text-center relative z-10">
-                    <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Our Valued Partners</h1>
+                    <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Our Valued Partners and customers</h1>
                     <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-gray-300">
                         Collaboration is at the heart of our success. We are proud to work with industry leaders to deliver exceptional value.
                     </p>
@@ -801,7 +801,7 @@ export default function PartnersPage() {
             </section>
 
             {/* Customer Slider Section (4 logos at a time, no names to avoid duplication) */}
-            <CustomerSlider />
+            {/* <CustomerSlider /> */}
 
             {/* "Become a Partner" CTA Section */}
             <section className="bg-white py-16 md:py-24">
@@ -822,10 +822,10 @@ export default function PartnersPage() {
                             </a>
                         </div>
                         <div className="order-1 md:order-2 flex justify-center">
-                           <svg className="w-48 h-48 opacity-80" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                           {/* <svg className="w-48 h-48 opacity-80" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m-7.5-2.962a3.75 3.75 0 015.962 0L14.25 6h5.25M12 3v5.25m0 0l-3.75 3.75M12 8.25l3.75 3.75M3 3h3.75v3.75H3V3z" />
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v-3.75h3.75v3.75H3zM16.5 3h3.75v3.75h-3.75V3zM16.5 16.5v-3.75h3.75v3.75h-3.75z" />
-                            </svg>
+                            </svg> */}
                         </div>
                     </div>
                 </div>

@@ -97,40 +97,40 @@ export const products = [
   title: 'HYDRAULIC TORQUE WRENCHES',
   category: 'Wrenches',
   company: 'Bolting Systems – Hydraulic Technologies Product Range',
-  imgSrc: '/images/img1.webp',
+  imgSrc: '/images/htw.jpeg',
   description: 'Bolting Systems hydraulic torque wrenches deliver precise and repeatable torque for assembly and maintenance of critical bolted joints. Compact, lightweight, and durable — suitable for oil & gas, power generation, mining, and heavy engineering applications.',
   keyFeatures: ['100 to 50,000 Nm (75 to 36,800 ft-lb)', 'Square Drive & Low Profile (Cassette Type)'],
-  pdf: '/pdfs/hydraulic-torque-wrenches.pdf'
+  pdf: '/pdfs/hydraulictorque.pdf'
 },
 {
   id: 'hydraulic-torque-wrench-pumps',
   title: 'HYDRAULIC TORQUE WRENCH PUMPS',
   category: 'Pumps',
   company: 'Bolting Systems – Hydraulic Technologies Product Range',
-  imgSrc: '/images/img2.webp',
+  imgSrc: '/images/hp.png',
   description: 'High-performance hydraulic pumps optimized for torque wrenches and tensioners. Designed for quick cycle times, low heat generation, and easy portability. Available with single or multiple outputs for workshop and field use.',
   keyFeatures: ['Up to 700 bar (10,000 psi)', 'Electric, Air, or Battery Operated'],
-  pdf: '/pdfs/torque-wrench-pumps.pdf'
+  pdf: '/pdfs/htwp.pdf'
 },
 {
   id: 'hydraulic-bolt-tensioners',
   title: 'HYDRAULIC BOLT TENSIONERS',
   category: 'Tensioners',
   company: 'Bolting Systems – Hydraulic Technologies Product Range',
-  imgSrc: '/images/img3.webp',
+  imgSrc: '/images/hbt.jpeg',
   description: 'Engineered for precise, simultaneous tightening of multiple bolts. Suitable for critical joints in turbines, flanges, power plants, and pressure vessels. Ensures accurate and uniform bolt load with minimal torsional stress.',
   keyFeatures: ['M20 to M150 (3/4” to 6” bolts)', 'Up to 1,500 bar (21,750 psi)'],
-  pdf: '/pdfs/hydraulic-bolt-tensioners.pdf'
+  pdf: '/pdfs/hbt.pdf'
 },
 {
   id: 'hydraulic-nuts',
   title: 'HYDRAULIC NUTS',
   category: 'Nuts',
   company: 'Bolting Systems – Hydraulic Technologies Product Range',
-  imgSrc: '/images/img4.webp',
+  imgSrc: '/images/hydraulicnuts.jepg',
   description: 'Hydraulic nuts replace conventional nuts for high-preload applications. Provide quick, accurate, and safe tensioning of large-diameter bolts, ideal for confined spaces and time-sensitive maintenance tasks.',
   keyFeatures: ['M20 to M200', 'Up to 1,500 bar'],
-  pdf: '/pdfs/hydraulic-nuts.pdf'
+  pdf: '/pdfs/hydraulicnuts.pdf'
 },
 {
   id: 'stud-tensioners-multi-stage-tensioners',
@@ -167,10 +167,10 @@ export const products = [
   title: 'PORTABLE TENSIONING PUMPS',
   category: 'Pumps',
   company: 'Bolting Systems – Hydraulic Technologies Product Range',
-  imgSrc: '/images/img8.webp',
+  imgSrc: '/images/ptp.jpg',
   description: 'Compact and lightweight high-pressure pumps designed to operate hydraulic tensioners efficiently in workshop or on-site applications.',
   keyFeatures: ['Up to 2,000 bar (30,000 psi)', 'Electric, Pneumatic, or Hand-Operated'],
-  pdf: '/pdfs/portable-tensioning-pumps.pdf'
+  pdf: '/pdfs/bsptp.pdf'
 },
 {
   id: 'custom-bolting-solutions',
@@ -200,7 +200,7 @@ export const products = [
   title: 'HYDRAULIC QUICK-CONNECT COUPLINGS',
   category: 'Couplings',
   company: 'CEJN Product Range – Quick-Connect & Hydraulic Solutions',
-  imgSrc: '/images/img1.webp',
+  imgSrc: '/images/hqcc.jpg',
   description: 'CEJN hidráulic couplings and nipples are engineered for safe, spill-free, high-flow hydraulic connections. Their flat-face and one-hand-operated designs reduce fluid loss, improve safety, and are suitable for industrial, mobile, offshore and tooling markets.',
   keyFeatures: ['Up to approx. 700 bar (10,153 psi) in standard hydraulic coupling range.', 'Some series handle pressures up to 400 MPa (4,000 bar) in advanced configurations.'],
   pdf: '/pdfs/hydraulic-quick-connect-couplings.pdf'
@@ -210,7 +210,7 @@ export const products = [
   title: 'MULTI-COUPLING SYSTEMS & PLATE SOLUTIONS',
   category: 'Systems',
   company: 'CEJN Product Range – Quick-Connect & Hydraulic Solutions',
-  imgSrc: '/images/img2.webp',
+  imgSrc: '/images/mcsps.jpg',
   description: 'These systems combine multiple hydraulic lines or media in compact modular format. Ideal when many connections are needed quickly, reliably and in tight spaces, e.g., for hydraulic tools, maintenance rigs, or mobile units.',
   keyFeatures: ['Multi-X and similar series enable multiple connections/disconnections in a single operation.'],
   pdf: '/pdfs/multi-coupling-systems.pdf'
@@ -220,7 +220,7 @@ export const products = [
   title: 'HOSE KITS, REELS & ACCESSORIES',
   category: 'Accessories',
   company: 'CEJN Product Range – Quick-Connect & Hydraulic Solutions',
-  imgSrc: '/images/img3.webp',
+  imgSrc: '/images/hkra.jpg',
   description: 'CEJN provides comprehensive assemblies and reeling solutions that support efficient deployment, safe storage and quick operation for hydraulics, fluids, air, and combined media systems.',
   keyFeatures: ['Hose assemblies, quick connect couplings, swivel joints, dedicated hose reels and cable/air/hydraulic combinations.'],
   pdf: '/pdfs/hose-kits-reels.pdf'
@@ -240,7 +240,7 @@ export const products = [
   title: 'CUSTOMISED & SPECIALTY SOLUTIONS',
   category: 'Solutions',
   company: 'CEJN Product Range – Quick-Connect & Hydraulic Solutions',
-  imgSrc: '/images/img5.webp',
+  imgSrc: '/images/css.jpg',
   description: 'CEJN teams work closely with OEMs and end-users to develop tailored coupling, hose, reel or integrated systems that meet extreme demands of flow, pressure, containment, and environment.',
   keyFeatures: ['Wind-energy hydraulics, thermal-management fluid quick-connects, offshore couplings, mobile-equipment hydraulic systems.'],
   pdf: '/pdfs/customised-solutions.pdf'

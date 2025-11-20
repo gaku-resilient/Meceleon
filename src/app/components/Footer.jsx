@@ -30,7 +30,7 @@ export default function Footer() {
                     <div className="md:col-span-2 lg:col-span-1">
                         <Logo />
                         <p className="text-gray-400 text-sm leading-relaxed">
-                           we believe in building long-lasting partnerships by consistently delivering exceptional value and going beyond expectations. Our team is here to help you find tailored solutions to meet your unique requirements, making sure your projects are backed by trusted products and reliable support.
+                           We believe in building long-lasting partnerships by consistently delivering exceptional value and going beyond expectations. Our team is here to help you find tailored solutions to meet your unique requirements, making sure your projects are backed by trusted products and reliable support.
                         </p>
                     </div>
 
