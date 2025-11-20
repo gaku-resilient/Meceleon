@@ -127,7 +127,7 @@ export const products = [
   title: 'HYDRAULIC NUTS',
   category: 'Nuts',
   company: 'Bolting Systems – Hydraulic Technologies Product Range',
-  imgSrc: '/images/hydraulicnuts.jepg',
+  imgSrc: '/images/hydrolicnuts.jpg',
   description: 'Hydraulic nuts replace conventional nuts for high-preload applications. Provide quick, accurate, and safe tensioning of large-diameter bolts, ideal for confined spaces and time-sensitive maintenance tasks.',
   keyFeatures: ['M20 to M200', 'Up to 1,500 bar'],
   pdf: '/pdfs/hydraulicnuts.pdf'
@@ -137,7 +137,7 @@ export const products = [
   title: 'STUD TENSIONERS & MULTI-STAGE TENSIONERS',
   category: 'Tensioners',
   company: 'Bolting Systems – Hydraulic Technologies Product Range',
-  imgSrc: '/images/img5.webp',
+  imgSrc: '/images/stmst.jpg',
   description: 'Heavy-duty tensioners designed for large bolt loads in turbines, compressors, and high-pressure flanges. Multi-stage models offer compact design for limited radial clearance applications.',
   keyFeatures: ['Up to M200 and beyond (custom sizes available)', 'Up to 2,000 bar'],
   pdf: '/pdfs/stud-tensioners.pdf'
@@ -147,7 +147,7 @@ export const products = [
   title: 'CALIBRATION & TEST EQUIPMENT',
   category: 'Equipment',
   company: 'Bolting Systems – Hydraulic Technologies Product Range',
-  imgSrc: '/images/img6.webp',
+  imgSrc: '/images/cte.jpg',
   description: 'Comprehensive calibration and testing systems ensure tool accuracy and reliability. Designed to meet ISO and ASTM standards for torque and pressure verification.',
   keyFeatures: ['Torque Analyzers, Pressure Test Stands, Calibration Tools', '±1% of reading'],
   pdf: '/pdfs/calibration-equipment.pdf'
@@ -157,7 +157,7 @@ export const products = [
   title: 'BOLTING ACCESSORIES',
   category: 'Accessories',
   company: 'Bolting Systems – Hydraulic Technologies Product Range',
-  imgSrc: '/images/img7.webp',
+  imgSrc: '/images/ba.jpg',
   description: 'High-quality accessories engineered to complement bolting tools and enhance safety, performance, and efficiency in high-pressure bolting operations.',
   keyFeatures: ['Reaction Arms, Sockets, Adaptors, Hoses, Manifolds, Couplers & Swivels', 'Up to 1,500 bar (21,750 psi)'],
   pdf: '/pdfs/bolting-accessories.pdf'
@@ -177,7 +177,7 @@ export const products = [
   title: 'CUSTOM BOLTING SOLUTIONS',
   category: 'Solutions',
   company: 'Bolting Systems – Hydraulic Technologies Product Range',
-  imgSrc: '/images/img9.webp',
+  imgSrc: '/images/cbc.jpg',
   description: 'Bolting Systems provides customized hydraulic bolting and tensioning solutions designed to deliver safety, accuracy, and operational reliability for demanding industrial applications.',
   keyFeatures: ['Wind Energy, Refineries, Petrochemicals, Offshore, Power Generation', 'Tailor-made for specific bolting and tensioning requirements'],
   pdf: '/pdfs/custom-bolting-solutions.pdf'
@@ -230,7 +230,7 @@ export const products = [
   title: 'PRESSURE TESTING & MONITORING SYSTEMS',
   category: 'Testing',
   company: 'CEJN Product Range – Quick-Connect & Hydraulic Solutions',
-  imgSrc: '/images/img4.webp',
+  imgSrc: '/images/ptams.jpg',
   description: 'Designed to ensure system integrity, CEJN’s pressure test and monitoring systems provide quick connect interfaces with high reliability, reduced contamination risk, and optimized for workshop use and rental fleets.',
   keyFeatures: ['Brake-in, load test stands, hose/line testing, system start-up verification.'],
   pdf: '/pdfs/pressure-testing-systems.pdf'
