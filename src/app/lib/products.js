@@ -92,6 +92,14 @@ export const products = [
   },
 
 
+
+
+
+
+
+
+
+  
 {
   id: 'hydraulic-torque-wrenches',
   title: 'HYDRAULIC TORQUE WRENCHES',
@@ -130,7 +138,7 @@ export const products = [
   imgSrc: '/images/hydrolicnuts.jpg',
   description: 'Hydraulic nuts replace conventional nuts for high-preload applications. Provide quick, accurate, and safe tensioning of large-diameter bolts, ideal for confined spaces and time-sensitive maintenance tasks.',
   keyFeatures: ['M20 to M200', 'Up to 1,500 bar'],
-  pdf: '/pdfs/meceleon_broscher.pdf'
+  pdf: '/pdfs/BOLTINGSYSTEMS.pdf'
 },
 {
   id: 'stud-tensioners-multi-stage-tensioners',
@@ -140,7 +148,7 @@ export const products = [
   imgSrc: '/images/stmst.jpg',
   description: 'Heavy-duty tensioners designed for large bolt loads in turbines, compressors, and high-pressure flanges. Multi-stage models offer compact design for limited radial clearance applications.',
   keyFeatures: ['Up to M200 and beyond (custom sizes available)', 'Up to 2,000 bar'],
-  pdf: '/pdfs/meceleon_broscher.pdf'
+  pdf: '/pdfs/BOLTINGSYSTEMS.pdf'
 },
 {
   id: 'calibration-test-equipment',
@@ -150,7 +158,7 @@ export const products = [
   imgSrc: '/images/cte.jpg',
   description: 'Comprehensive calibration and testing systems ensure tool accuracy and reliability. Designed to meet ISO and ASTM standards for torque and pressure verification.',
   keyFeatures: ['Torque Analyzers, Pressure Test Stands, Calibration Tools', '±1% of reading'],
-  pdf: '/pdfs/meceleon_broscher.pdf'
+  pdf: '/pdfs/BOLTINGSYSTEMS.pdf'
 },
 {
   id: 'bolting-accessories',
