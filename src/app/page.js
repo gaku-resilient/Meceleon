@@ -1709,7 +1709,7 @@ quote: "Our projects demand precision and speed, and your team consistently deli
       className="bg-red-600 hover:bg-red-700 text-white px-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-300 transform hover:scale-105 active:scale-95 hover:shadow-xl sm:hover:shadow-2xl inline-flex items-center justify-center gap-2 min-h-[44px] touch-manipulation mx-auto"
       aria-label="Explore our products"
     >
-      Explore Our Products <ArrowRight size={18} className="sm:size-20" />
+      Explore Our Products <ArrowRight size={18} className="sm:size-15" />
     </Link>
   </div>
 </section>
