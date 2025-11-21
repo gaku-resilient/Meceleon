@@ -524,9 +524,9 @@ const StatsSection = () => (
     <div className="container mx-auto px-3 xs:px-4 text-center">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 xs:gap-6 sm:gap-8">
         {[
-          { num: "25+", label: "Years of Expertise" },
-          { num: "500+", label: "Products in Catalog" },
-          { num: "1000+", label: "Satisfied Clients" }
+          { num: "10+", label: "Years of Expertise" },
+          { num: "1000+", label: "Products in Catalog" },
+          { num: "100+", label: "Satisfied Clients" }
         ].map(({ num, label }, index) => (
           <div key={index} className="py-4 transition-all duration-300 hover:scale-105 active:scale-95 touch-manipulation">
             <h3 className="text-3xl xs:text-4xl sm:text-5xl font-bold mb-1 xs:mb-2">{num}</h3>
@@ -707,7 +707,7 @@ export default function ProductsPage() {
                   <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-gray-900 border-b-2 border-red-600 inline-block pb-1 xs:pb-2">
                     ------ {company.toUpperCase()} ------
                   </h3>
-                  <p className="text-gray-600 mt-1 xs:mt-2 text-xs xs:text-sm sm:text-base">Their Products</p>
+                  {/* <p className="text-gray-600 mt-1 xs:mt-2 text-xs xs:text-sm sm:text-base">Their Products</p> */}
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 xs:gap-4 sm:gap-6 lg:gap-8">
                   {companyProducts.map((product) => (
