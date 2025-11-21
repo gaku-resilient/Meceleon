@@ -130,7 +130,7 @@ export const products = [
   imgSrc: '/images/hydrolicnuts.jpg',
   description: 'Hydraulic nuts replace conventional nuts for high-preload applications. Provide quick, accurate, and safe tensioning of large-diameter bolts, ideal for confined spaces and time-sensitive maintenance tasks.',
   keyFeatures: ['M20 to M200', 'Up to 1,500 bar'],
-  pdf: '/pdfs/hydraulicnuts.pdf'
+  pdf: '/pdfs/meceleon_broscher.pdf'
 },
 {
   id: 'stud-tensioners-multi-stage-tensioners',
@@ -140,7 +140,7 @@ export const products = [
   imgSrc: '/images/stmst.jpg',
   description: 'Heavy-duty tensioners designed for large bolt loads in turbines, compressors, and high-pressure flanges. Multi-stage models offer compact design for limited radial clearance applications.',
   keyFeatures: ['Up to M200 and beyond (custom sizes available)', 'Up to 2,000 bar'],
-  pdf: '/pdfs/stud-tensioners.pdf'
+  pdf: '/pdfs/meceleon_broscher.pdf'
 },
 {
   id: 'calibration-test-equipment',
@@ -150,7 +150,7 @@ export const products = [
   imgSrc: '/images/cte.jpg',
   description: 'Comprehensive calibration and testing systems ensure tool accuracy and reliability. Designed to meet ISO and ASTM standards for torque and pressure verification.',
   keyFeatures: ['Torque Analyzers, Pressure Test Stands, Calibration Tools', '±1% of reading'],
-  pdf: '/pdfs/calibration-equipment.pdf'
+  pdf: '/pdfs/meceleon_broscher.pdf'
 },
 {
   id: 'bolting-accessories',
@@ -160,7 +160,7 @@ export const products = [
   imgSrc: '/images/ba.jpg',
   description: 'High-quality accessories engineered to complement bolting tools and enhance safety, performance, and efficiency in high-pressure bolting operations.',
   keyFeatures: ['Reaction Arms, Sockets, Adaptors, Hoses, Manifolds, Couplers & Swivels', 'Up to 1,500 bar (21,750 psi)'],
-  pdf: '/pdfs/bolting-accessories.pdf'
+  pdf: '/pdfs/boltingassesries.pdf'
 },
 {
   id: 'portable-tensioning-pumps',
@@ -180,7 +180,7 @@ export const products = [
   imgSrc: '/images/cbc.jpg',
   description: 'Bolting Systems provides customized hydraulic bolting and tensioning solutions designed to deliver safety, accuracy, and operational reliability for demanding industrial applications.',
   keyFeatures: ['Wind Energy, Refineries, Petrochemicals, Offshore, Power Generation', 'Tailor-made for specific bolting and tensioning requirements'],
-  pdf: '/pdfs/custom-bolting-solutions.pdf'
+  pdf: '/pdfs/custombolting.pdf'
 },
 
 
@@ -203,7 +203,7 @@ export const products = [
   imgSrc: '/images/hqcc.jpg',
   description: 'CEJN hidráulic couplings and nipples are engineered for safe, spill-free, high-flow hydraulic connections. Their flat-face and one-hand-operated designs reduce fluid loss, improve safety, and are suitable for industrial, mobile, offshore and tooling markets.',
   keyFeatures: ['Up to approx. 700 bar (10,153 psi) in standard hydraulic coupling range.', 'Some series handle pressures up to 400 MPa (4,000 bar) in advanced configurations.'],
-  pdf: '/pdfs/hydraulic-quick-connect-couplings.pdf'
+  pdf: '/pdfs/cejn.pdf'
 },
 {
   id: 'multi-coupling-systems-plate-solutions',
@@ -213,7 +213,7 @@ export const products = [
   imgSrc: '/images/mcsps.jpg',
   description: 'These systems combine multiple hydraulic lines or media in compact modular format. Ideal when many connections are needed quickly, reliably and in tight spaces, e.g., for hydraulic tools, maintenance rigs, or mobile units.',
   keyFeatures: ['Multi-X and similar series enable multiple connections/disconnections in a single operation.'],
-  pdf: '/pdfs/multi-coupling-systems.pdf'
+  pdf: '/pdfs/cejn.pdf'
 },
 {
   id: 'hose-kits-reels-accessories',
@@ -223,7 +223,7 @@ export const products = [
   imgSrc: '/images/hkra.jpg',
   description: 'CEJN provides comprehensive assemblies and reeling solutions that support efficient deployment, safe storage and quick operation for hydraulics, fluids, air, and combined media systems.',
   keyFeatures: ['Hose assemblies, quick connect couplings, swivel joints, dedicated hose reels and cable/air/hydraulic combinations.'],
-  pdf: '/pdfs/hose-kits-reels.pdf'
+  pdf: '/pdfs/hosekits.pdf'
 },
 {
   id: 'pressure-testing-monitoring-systems',
@@ -233,7 +233,7 @@ export const products = [
   imgSrc: '/images/ptams.jpg',
   description: 'Designed to ensure system integrity, CEJN’s pressure test and monitoring systems provide quick connect interfaces with high reliability, reduced contamination risk, and optimized for workshop use and rental fleets.',
   keyFeatures: ['Brake-in, load test stands, hose/line testing, system start-up verification.'],
-  pdf: '/pdfs/pressure-testing-systems.pdf'
+  pdf: '/pdfs/cejn.pdf'
 },
 {
   id: 'customised-specialty-solutions',
@@ -243,7 +243,7 @@ export const products = [
   imgSrc: '/images/css.jpg',
   description: 'CEJN teams work closely with OEMs and end-users to develop tailored coupling, hose, reel or integrated systems that meet extreme demands of flow, pressure, containment, and environment.',
   keyFeatures: ['Wind-energy hydraulics, thermal-management fluid quick-connects, offshore couplings, mobile-equipment hydraulic systems.'],
-  pdf: '/pdfs/customised-solutions.pdf'
+  pdf: '/pdfs/cejn.pdf'
 },
 
 
@@ -260,7 +260,7 @@ export const products = [
   imgSrc: '/images/Handtools.jpg',
   description: 'A comprehensive range of professional hand tools — spanners, socket sets, pliers, cutters, insulated tools — designed for durability and ergonomic comfort under demanding industrial conditions.',
   keyFeatures: ['Spanners & Wrenches: 4 mm to 85 mm (A/F)', 'Screwdrivers: lengths from ~75 mm to ~300 mm', 'Hammers: weight range ~100 g to ~5 kg'],
-  pdf: '/pdfs/hand-tools.pdf'
+  pdf: '/pdfs/meceleon_broscher.pdf'
 },
 {
   id: 'power-tools-pneumatic-tools',
@@ -270,7 +270,7 @@ export const products = [
   imgSrc: '/images/powertools&pnumatictools.jpg',
   description: 'Robust electric and pneumatic tools for workshop assembly, maintenance lines and heavy-duty operations. Built for continuous duty, rugged use and consistent performance.',
   keyFeatures: ['Drills: 6 mm to 13 mm typical chuck sizes', 'Impact Wrenches: ½″ to 1″ drive, torque up to ~2000 Nm', 'Grinders & Sanders: speeds ~6,000 – 12,000 RPM'],
-  pdf: '/pdfs/power-tools.pdf'
+  pdf: '/pdfs/meceleon_broscher.pdf'
 },
 {
   id: 'lubrication-fluid-handling-equipment',
@@ -280,7 +280,7 @@ export const products = [
   imgSrc: '/images/lubrication.jpg',
   description: 'Efficient lubrication systems — grease guns, fluid transfer pumps and reels — designed for workshops, service vehicles and mobile applications. Ensures clean, safe and efficient fluid handling.',
   keyFeatures: ['Grease Guns: cartridge size ~400 gm up to 500 gm bulk fill', 'Grease Pumps: compatible with 25 kg to 200 kg drums', 'Oil / Fluid Transfer Pumps: flow ~0.3 L/min to ~5 L/min, power 12 V/24 V DC or 230 V AC up to ~60 L/min for fuel transfer'],
-  pdf: '/pdfs/lubrication-equipment.pdf'
+  pdf: '/pdfs/meceleon_broscher.pdf'
 },
 {
   id: 'workshop-equipment-storage',
@@ -290,7 +290,7 @@ export const products = [
   imgSrc: '/images/workshopaquipment.png',
   description: 'Supporting infrastructure tools for workshop environments — tool storage systems, benches, trolleys and vices. Engineered for heavy-duty usage, durability and efficient organization.',
   keyFeatures: ['Bench Vices: jaw widths ~75 mm to ~200 mm, clamping force up to ~15,000 N', 'Trolleys & Cabinets: load capacity up to ~500 kg'],
-  pdf: '/pdfs/workshop-equipment.pdf'
+  pdf: '/pdfs/meceleon_broscher.pdf'
 },
 {
   id: 'lighting-inspection-tools',
@@ -300,7 +300,7 @@ export const products = [
   imgSrc: '/images/lighting&inspection.jpg',
   description: 'Reliable lighting and inspection tools for service bays, maintenance stations and field operations. Designed for visibility, ruggedness and operator convenience.',
   keyFeatures: ['LED Lamps: 150 lm to 1,200 lm typical output', 'Battery / Rechargeable Options: Li-ion, AA/AAA, run time up to ~8 hours'],
-  pdf: '/pdfs/lighting-tools.pdf'
+  pdf: '/pdfs/meceleon_broscher.pdf'
 },
 {
   id: 'precision-measuring-tools',
@@ -310,7 +310,7 @@ export const products = [
   imgSrc: '/images/precision&measuring.jpg',
   description: 'High-accuracy measurement and inspection instruments made for industrial and engineering shops — enabling quality control, layout checks and calibration with precision.',
   keyFeatures: ['Vernier Calipers: 0-300 mm', 'Micrometers: 0-100 mm', 'Spirit Levels: 150 mm to 1,000 mm'],
-  pdf: '/pdfs/precision-tools.pdf'
+  pdf: '/pdfs/meceleon_broscher.pdf'
 },
 {
   id: 'hose-accessory-systems',
@@ -320,7 +320,7 @@ export const products = [
   imgSrc: '/images/hose&accessory.jpg',
   description: 'Complete hose systems and accessories for air, oil, grease and water — durable constructions, safety-rated materials and designed for effective workshop or industrial utility.',
   keyFeatures: ['Air Hoses: pressure rating up to ~300 psi', 'Hydraulic Hoses: pressure rating up to ~700 bar (10,000 psi)', 'Hose Reels: hose lengths up to ~30 m'],
-  pdf: '/pdfs/hose-systems.pdf'
+  pdf: '/pdfs/meceleon_broscher.pdf'
 }
 
   // Add more products here in the future to keep both pages in sync

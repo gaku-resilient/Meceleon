@@ -29,7 +29,7 @@ export default function ResourcesPage() {
       pages: 18,
       size: '2.8 MB',
       thumbnail: '/images/brochure-pumps.jpg',
-      pdfUrl: '/pdfs/meceleon_broscher.pdf',
+      pdfUrl: '/pdfs/cejn.pdf',
       date: '2024-12-10'
     },
     {
