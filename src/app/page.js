@@ -1683,7 +1683,7 @@ quote: "Our projects demand precision and speed, and your team consistently deli
       </Head>
       <div className="font-sans bg-gray-50 text-gray-900">
         {/* Hero Section */}
-     <section className="relative min-h-auto flex items-center justify-center overflow-hidden py-8 sm:py-12 md:py-16">
+     <section className="relative min-h-auto flex items-center justify-center overflow-hidden py-8 sm:py-1 md:py-16">
   <div className="absolute inset-0">
     <Image
       src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1920&h=1080&fit=crop"
@@ -1697,7 +1697,7 @@ quote: "Our projects demand precision and speed, and your team consistently deli
     <div className="absolute inset-0 bg-gradient-to-b from-gray-600/80 to-red-900/90 sm:from-gray-600/70 sm:to-red-900/80"></div> {/* Stronger overlay on mobile */}
   </div>
   
-  <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl sm:max-w-5xl mx-auto animate-fade-in text-white w-full">
+  <div className="relative z-10 text-center py-7 px-4 sm:px-6 max-w-4xl sm:max-w-5xl mx-auto animate-fade-in text-white w-full">
     <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight sm:leading-snug">
       Powering Industries with <span className="text-red-600">Precision</span> Hydraulic Solutions
     </h1>
